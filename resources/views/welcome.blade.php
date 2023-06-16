@@ -9,7 +9,11 @@
 </head>
 <body>
     <h1>Página do blade</h1>
+
     <livewire:hello-world />
+
+    <livewire:counter />
+    
     @livewireScripts
 </body>
 </html>
