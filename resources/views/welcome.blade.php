@@ -10,10 +10,8 @@
 <body>
     <h1>Página do blade</h1>
 
-    <livewire:hello-world />
+    @livewire('user')
 
-    <livewire:counter />
-    
     @livewireScripts
 </body>
 </html>
